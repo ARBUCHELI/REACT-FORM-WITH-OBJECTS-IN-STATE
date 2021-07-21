@@ -1,0 +1,43 @@
+html, body {
+	height: 100%;
+  background-color: #622569;
+  text-align: left;
+  margin: 0;
+}
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+#app {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 8px;
+}
+
+input {
+  width: 90%;
+  max-width: 300px;
+  margin: 5px 5%;
+}
+
+.center {
+  margin: 3em auto;
+  width: 50%;
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #5b9aa0;
+}
+
+.but {
+    background-color: #622569;
+    padding: 1em;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-family: impact;
+    color: white;
+    font-size: 1em;
+}
